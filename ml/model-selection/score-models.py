@@ -30,7 +30,7 @@ for idx in range(min(len(df_qwen), len(df_llama))):
     You are tasked with evaluating two AI-generated responses based on the provided context. Your evaluation should focus on two criteria:
 
     1. Accuracy: How correctly does the response address the context provided?
-    2. Contextual Appropriateness: How relevant, coherent, and suitable is the response given the context?
+    2. Contextual Relevance: How relevant, coherent, and suitable is the response given the context?
 
     Please provide a brief comparative analysis and clearly state which response (Qwen or Llama) is superior overall, along with a concise justification.
 
@@ -49,7 +49,7 @@ for idx in range(min(len(df_qwen), len(df_llama))):
     - Qwen: [Brief evaluation]
     - Llama: [Brief evaluation]
 
-    Contextual Appropriateness:
+    Contextual Relevance:
     - Qwen: [Brief evaluation]
     - Llama: [Brief evaluation]
 
